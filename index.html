@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guido Bryan Nugroho — Web Developer &amp; Video Editor</title>
+  <meta name="description" content="Portofolio resmi Guido Bryan Nugroho (Guido) — Web Developer, Video Editor, dan anggota OSIS Media & Teknologi SMP Kristen Kalam Kudus Padang." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-dot"></span>
+        <span>guido<span class="brand-muted">.porto</span></span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Navigasi Utama">
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#karya" class="nav-link">Karya</a>
+        <a href="#pengalaman" class="nav-link">Pengalaman</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero section-border">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="meta-pill">
+            <span class="status-indicator"></span>
+            <span>Indonesia &bull; Web Developer &amp; Video Editor</span>
+          </div>
+
+          <h1 class="hero-title">
+            Guido Bryan<br />
+            Nugroho<span class="accent-period">.</span>
+          </h1>
+
+          <div class="tagline-box" aria-label="Tagline">
+            <span class="tagline-label">TAGLINE</span>
+            <p class="tagline-text">No Coding, No life👾๋࣭ ⭑✮💻₊ ⊹⚙️</p>
+          </div>
+
+          <p class="hero-lead">
+            Pelajar di SMP Kristen Kalam Kudus Padang yang aktif ngoding web, ngedit video,
+            bikin bot Discord, dan desain grafis minimalis.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#karya" class="btn btn-primary">Lihat Daftar Karya</a>
+            <a href="#kontak" class="btn btn-secondary">Kontak &amp; Sosmed</a>
+          </div>
+        </div>
+
+        <aside class="hero-profile" aria-label="Foto Profil Guido">
+          <div class="profile-frame">
+            <div class="profile-frame-bar">
+              <span class="frame-dots"><i></i><i></i><i></i></span>
+              <span class="frame-file">guido-profile.png</span>
+            </div>
+            <div class="profile-image-wrap">
+              <img
+                src="https://raw.githubusercontent.com/gbnpro282/Portofolio/refs/heads/main/Image/Screenshot%202026-11-26%20132228.png"
+                alt="Foto profil Guido Bryan Nugroho"
+                class="profile-image"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+              />
+              <div class="profile-fallback" style="display: none;">
+                <span>GBN</span>
+              </div>
+            </div>
+            <div class="profile-meta-grid">
+              <div class="profile-meta-item">
+                <span class="meta-key">Panggilan</span>
+                <span class="meta-val">Guido</span>
+              </div>
+              <div class="profile-meta-item">
+                <span class="meta-key">Fokus</span>
+                <span class="meta-val">Coding &amp; Editing</span>
+              </div>
+              <div class="profile-meta-item">
+                <span class="meta-key">Organisasi</span>
+                <span class="meta-val">OSIS Media &amp; Teknologi</span>
+              </div>
+              <div class="profile-meta-item">
+                <span class="meta-key">Hobi</span>
+                <span class="meta-val">Main Game (Roblox)</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Tentang & Skill Section -->
+    <section id="tentang" class="section section-border">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-index">01</span>
+          <div>
+            <h2 class="section-title">Tentang Saya</h2>
+            <p class="section-subtitle">Profil singkat, minat, dan hal yang sedang dikerjakan.</p>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-story">
+            <p>
+              Hello, nama saya <strong>Guido</strong>. Saya sangat suka dengan dunia <strong>coding</strong> dan <strong>video editing</strong>.
+              Saat ini saya bersekolah di <strong>SMP Kristen Kalam Kudus Padang</strong> dan aktif sebagai anggota
+              <strong>OSIS bidang Media &amp; Teknologi</strong>.
+            </p>
+            <p>
+              Di luar kegiatan sekolah dan organisasi, saya senang mengeksplorasi pembuatan website, merakit bot Discord,
+              serta mengerjakan desain grafis tipis-tipis seperti poster dan tipografi. Kalau lagi santai, saya suka bermain
+              game—terutama <strong>Roblox</strong>.
+            </p>
+          </div>
+
+          <div class="skills-panel">
+            <div class="skill-group">
+              <h3 class="skill-group-title">Bidang Utama</h3>
+              <div class="tag-list">
+                <span class="tag">Web Development</span>
+                <span class="tag">Video Editing</span>
+                <span class="tag">Discord Bot</span>
+                <span class="tag">Desain Grafis</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-title">Skill &amp; Aktivitas</h3>
+              <div class="tag-list">
+                <span class="tag tag-outline">Coding</span>
+                <span class="tag tag-outline">Editor Film Pendek</span>
+                <span class="tag tag-outline">Poster &amp; Typography</span>
+                <span class="tag tag-outline">Tim Multimedia</span>
+              </div>
+            </div>
+
+            <div class="skill-group">
+              <h3 class="skill-group-title">Hobi &amp; Minat</h3>
+              <div class="tag-list">
+                <span class="tag tag-outline">Main Game</span>
+                <span class="tag tag-outline">Roblox</span>
+                <span class="tag tag-outline">Teknologi &amp; Media</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Daftar Karya Section -->
+    <section id="karya" class="section section-border">
+      <div class="container">
+        <div class="section-header section-header-split">
+          <div class="section-header-left">
+            <span class="section-index">02</span>
+            <div>
+              <h2 class="section-title">Daftar Karya</h2>
+              <p class="section-subtitle">Kumpulan proyek video editing, desain grafis, web, dan bot.</p>
+            </div>
+          </div>
+
+          <div class="filter-bar" role="tablist" aria-label="Filter kategori karya">
+            <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Semua (6)</button>
+            <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web &amp; Bot</button>
+            <button class="filter-btn" data-filter="video" role="tab" aria-selected="false">Video</button>
+            <button class="filter-btn" data-filter="design" role="tab" aria-selected="false">Desain</button>
+          </div>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Proyek 1 -->
+          <article class="project-card" data-category="video">
+            <div class="project-media project-media-schematic">
+              <div class="schematic-box">
+                <span class="schematic-badge">VIDEO EDITING</span>
+                <div class="schematic-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <polygon points="10 9 15 12 10 15 10 9" fill="currentColor" stroke="none"></polygon>
+                  </svg>
+                </div>
+                <span class="schematic-code">SHORT FILM &bull; INSTAGRAM REELS</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-num">01</span>
+                <span class="project-cat">Video Editor</span>
+              </div>
+              <h3 class="project-title">Editor film paskah</h3>
+              <p class="project-desc">
+                Proyek ini adalah membuat sebuah film pendek untuk kegiatan paskah sekolah.
+              </p>
+              <div class="project-footer">
+                <a href="https://www.instagram.com/p/DRmYxD1k5kK" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Lihat di Instagram
+                  <span aria-hidden="true">&nearr;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 2 -->
+          <article class="project-card" data-category="video">
+            <div class="project-media project-media-schematic">
+              <div class="schematic-box">
+                <span class="schematic-badge">HACKATHON PROJECT</span>
+                <div class="schematic-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                    <path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14v-4z"></path>
+                    <rect x="3" y="6" width="12" height="12" rx="2"></rect>
+                  </svg>
+                </div>
+                <span class="schematic-code">SHORT FILM &bull; YOUTUBE</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-num">02</span>
+                <span class="project-cat">Video Editor</span>
+              </div>
+              <h3 class="project-title">Editor film singkat hacktaton edefi</h3>
+              <p class="project-desc">
+                Proyek ini adalah proyek lomba hacktaton dan saya berada pada bagian editor.
+              </p>
+              <div class="project-footer">
+                <a href="https://youtu.be/vtd8cCw62pE?si=awAkkljUk56wFXP5" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Tonton di YouTube
+                  <span aria-hidden="true">&nearr;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 3 -->
+          <article class="project-card" data-category="design">
+            <div class="project-media project-media-image">
+              <img
+                src="https://raw.githubusercontent.com/gbnpro282/Portofolio/refs/heads/main/Image/unnamed%20(1).png"
+                alt="Membuat typographic bertema badminton"
+                loading="lazy"
+              />
+              <button
+                type="button"
+                class="zoom-trigger"
+                data-img="https://raw.githubusercontent.com/gbnpro282/Portofolio/refs/heads/main/Image/unnamed%20(1).png"
+                data-caption="Membuat typographic — Typography dengan tema badminton"
+                aria-label="Perbesar gambar Membuat typographic"
+              >
+                Perbesar Gambar
+              </button>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-num">03</span>
+                <span class="project-cat">Graphic Design</span>
+              </div>
+              <h3 class="project-title">Membuat typographic</h3>
+              <p class="project-desc">
+                Proyek ini adalah membuat sebuah typography dengan tema badminton.
+              </p>
+              <div class="project-footer">
+                <button
+                  type="button"
+                  class="project-link project-link-btn zoom-trigger"
+                  data-img="https://raw.githubusercontent.com/gbnpro282/Portofolio/refs/heads/main/Image/unnamed%20(1).png"
+                  data-caption="Membuat typographic — Typography dengan tema badminton"
+                >
+                  Lihat Preview Penuh
+                  <span aria-hidden="true">+</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 4 -->
+          <article class="project-card" data-category="design">
+            <div class="project-media project-media-image">
+              <img
+                src="https://raw.githubusercontent.com/gbnpro282/Portofolio/refs/heads/main/Image/unnamed.png"
+                alt="Poster Memperingati Kemerdekaan Indonesia ke-80"
+                loading="lazy"
+              />
+              <button
+                type="button"
+                class="zoom-trigger"
+                data-img="https://raw.githubusercontent.com/gbnpro282/Portofolio/refs/heads/main/Image/unnamed.png"
+                data-caption="Membuat poster kemerdekaan — Poster Memperingati Kemerdekaan Indonesia ke-80"
+                aria-label="Perbesar gambar Membuat poster kemerdekaan"
+              >
+                Perbesar Gambar
+              </button>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-num">04</span>
+                <span class="project-cat">Poster Design</span>
+              </div>
+              <h3 class="project-title">Membuat poster kemerdekaan</h3>
+              <p class="project-desc">
+                Proyek ini adalah membuat sebuah poster untuk Memperingati Kemerdekaan Indonesia ke 80.
+              </p>
+              <div class="project-footer">
+                <button
+                  type="button"
+                  class="project-link project-link-btn zoom-trigger"
+                  data-img="https://raw.githubusercontent.com/gbnpro282/Portofolio/refs/heads/main/Image/unnamed.png"
+                  data-caption="Membuat poster kemerdekaan — Poster Memperingati Kemerdekaan Indonesia ke-80"
+                >
+                  Lihat Preview Penuh
+                  <span aria-hidden="true">+</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 5 -->
+          <article class="project-card" data-category="web">
+            <div class="project-media project-media-schematic">
+              <div class="schematic-box">
+                <span class="schematic-badge">WEB DEVELOPMENT</span>
+                <div class="schematic-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                    <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <polyline points="8 14 6 16 8 18"></polyline>
+                    <polyline points="16 14 18 16 16 18"></polyline>
+                  </svg>
+                </div>
+                <span class="schematic-code">osissmpskkkpdg2627.web.id</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-num">05</span>
+                <span class="project-cat">Web Developer</span>
+              </div>
+              <h3 class="project-title">Web developer</h3>
+              <p class="project-desc">
+                Saya adalah web developer dari website OSIS SMP SKKK Padang.
+              </p>
+              <div class="project-footer">
+                <a href="https://osissmpskkkpdg2627.web.id/" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Kunjungi Website
+                  <span aria-hidden="true">&nearr;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 6 -->
+          <article class="project-card" data-category="web">
+            <div class="project-media project-media-schematic">
+              <div class="schematic-box">
+                <span class="schematic-badge">DISCORD BOT</span>
+                <div class="schematic-icon" aria-hidden="true">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <polyline points="9 12 11 14 15 10"></polyline>
+                  </svg>
+                </div>
+                <span class="schematic-code">MODERATION &amp; GREETER BOT</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <span class="project-num">06</span>
+                <span class="project-cat">Bot Developer</span>
+              </div>
+              <h3 class="project-title">Guardian Server</h3>
+              <p class="project-desc">
+                Ini adalah sebuah bot discord publik yang berperan seperti penjaga dan penyambut.
+              </p>
+              <div class="project-footer">
+                <a href="https://discord.gg/vRjjADEYYC" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Coba di Discord
+                  <span aria-hidden="true">&nearr;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pengalaman & Pendidikan Section -->
+    <section id="pengalaman" class="section section-border">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-index">03</span>
+          <div>
+            <h2 class="section-title">Pengalaman &amp; Pendidikan</h2>
+            <p class="section-subtitle">Riwayat organisasi, kepanitiaan multimedia, dan pendidikan.</p>
+          </div>
+        </div>
+
+        <div class="timeline-columns">
+          <!-- Kolom Pengalaman Organisasi -->
+          <div class="timeline-block">
+            <h3 class="timeline-heading">Pengalaman Organisasi &amp; Event</h3>
+            <div class="timeline-list">
+              <div class="timeline-item">
+                <span class="timeline-year">2026 — 2027</span>
+                <div class="timeline-detail">
+                  <h4>OSIS SMP Kristen Kalam Kudus Padang</h4>
+                  <p>Sebagai anggota Media &amp; Teknologi</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-year">2026</span>
+                <div class="timeline-detail">
+                  <h4>Team Multimedia KK Expo Padang 2026</h4>
+                  <p>Berperan sebagai Team Multimedia KK Expo Padang 2026</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-year">2025 — 2026</span>
+                <div class="timeline-detail">
+                  <h4>OSIS SMP Kristen Kalam Kudus Padang</h4>
+                  <p>Sebagai anggota Media &amp; Teknologi</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-year">2024</span>
+                <div class="timeline-detail">
+                  <h4>Team Multimedia KK Expo Padang 2024</h4>
+                  <p>Berperan sebagai Team Multimedia KK Expo Padang 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Pendidikan -->
+          <div class="timeline-block">
+            <h3 class="timeline-heading">Pendidikan</h3>
+            <div class="timeline-list">
+              <div class="timeline-item">
+                <span class="timeline-year">2024 — Sekarang</span>
+                <div class="timeline-detail">
+                  <h4>SMP Kristen Kalam Kudus Padang</h4>
+                  <p>Pelajar aktif &amp; anggota OSIS bidang Media &amp; Teknologi</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <span class="timeline-year">2018 — 2024</span>
+                <div class="timeline-detail">
+                  <h4>SD Agnes</h4>
+                  <p>Pendidikan Sekolah Dasar</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kontak & Media Sosial Section -->
+    <section id="kontak" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-index">04</span>
+          <div>
+            <h2 class="section-title">Kontak &amp; Media Sosial</h2>
+            <p class="section-subtitle">Terhubung langsung lewat email atau akun sosial media saya.</p>
+          </div>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-primary">
+            <span class="contact-label">EMAIL AKTIF</span>
+            <a href="mailto:gbnpro28@gmail.com" class="contact-email">gbnpro28@gmail.com</a>
+            <div class="contact-copy-row">
+              <button type="button" class="btn btn-secondary btn-sm copy-btn" data-copy="gbnpro28@gmail.com" data-label="Email">
+                Salin Email
+              </button>
+              <button type="button" class="btn btn-secondary btn-sm copy-btn" data-copy="@gbnpro28" data-label="Username Discord">
+                Salin Discord (@gbnpro28)
+              </button>
+            </div>
+          </div>
+
+          <div class="social-grid">
+            <a href="https://github.com/gbnpro282" target="_blank" rel="noopener noreferrer" class="social-card">
+              <span class="social-platform">GitHub</span>
+              <span class="social-handle">gbnpro282 &nearr;</span>
+            </a>
+
+            <a href="https://www.instagram.com/gbn_cdid" target="_blank" rel="noopener noreferrer" class="social-card">
+              <span class="social-platform">Instagram</span>
+              <span class="social-handle">@gbn_cdid &nearr;</span>
+            </a>
+
+            <a href="https://www.tiktok.com/@guido_bryan4" target="_blank" rel="noopener noreferrer" class="social-card">
+              <span class="social-platform">TikTok</span>
+              <span class="social-handle">@guido_bryan4 &nearr;</span>
+            </a>
+
+            <a href="https://www.youtube.com/@GBNPro28-u1s" target="_blank" rel="noopener noreferrer" class="social-card">
+              <span class="social-platform">YouTube</span>
+              <span class="social-handle">@GBNPro28-u1s &nearr;</span>
+            </a>
+
+            <a href="https://discord.gg/vRjjADEYYC" target="_blank" rel="noopener noreferrer" class="social-card">
+              <span class="social-platform">Discord</span>
+              <span class="social-handle">@gbnpro28 &nearr;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="currentYear">2026</span> Guido Bryan Nugroho.</p>
+      <a href="#top" class="back-to-top">Kembali ke atas &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Artwork Preview -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="lightboxCaption">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Tutup pratinjau">&times;</button>
+      <img src="" alt="" id="lightboxImg" />
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
